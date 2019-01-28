@@ -6,6 +6,7 @@ At this point, branched off from using the graphical configuration at https://co
 
 ## Building
 
+Set up the QMK environment following the documentation at https://docs.qmk.fm/#/newbs_getting_started
 ```
 $ git clone https://github.com/jackhumbert/qmk_firmware.git
 $ cd qmk_firmware
