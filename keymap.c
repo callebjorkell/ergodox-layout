@@ -33,7 +33,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   uint8_t layer = biton32(layer_state);
 
   uprintf(
-    "{\"keylog\":true,\"col\":%d,\"row\":%d,\"pressed\":%d,\"layer\":\"%d\"}\n",
+    "{\"keylog\":true,\"col\":%d,\"row\":%d,\"pressed\":%d,\"layer\":%d}\n",
     record->event.key.row,
     record->event.key.col,
     record->event.pressed,
