@@ -3,6 +3,9 @@
 #include "action_layer.h"
 #include <print.h>
 
+#define LCGS(code) LCTL(LGUI(LSFT(code)))
+#define LCS(code) LCTL(LSFT(code))
+
 enum custom_keycodes {
   PLACEHOLDER = SAFE_RANGE, // can always be here
   EPRM,
