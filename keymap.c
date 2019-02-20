@@ -18,10 +18,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // left hand
     KC_ESC,             KC_1,               KC_2,               KC_3,               KC_4,               KC_5,               KC_6,               
     KC_GRV,             KC_Q,               KC_W,               KC_E,               KC_R,               KC_T,               MO(1),              
-    KC_TAB,             KC_A,               KC_S,               KC_D,               KC_F,               KC_G,                          
-    KC_LSFT,            KC_Z,               KC_X,               KC_C,               KC_V,               KC_B,               MO(4),              
-    MO(5),              _______,            KC_PGDN,            KC_PGUP,            LCTL(KC_SPC),       
-                                                                                                        LALT(KC_LCTL),      LSFT(KC_INS),       
+    KC_TAB,             KC_A,               KC_S,               KC_D,               KC_F,               KC_G,               
+    KC_LSFT,            KC_Z,               KC_X,               KC_C,               KC_V,               KC_B,               LCTL(KC_INS),       
+    MO(5),              LCTL(KC_LALT),      KC_PGDN,            KC_PGUP,            LCTL(KC_SPC),       
+                                                                                                        LSFT(KC_DEL),       LSFT(KC_INS),       
                                                                                                                             KC_ENT,             
                                                                                     LALT_T(KC_SPC),     KC_LCTL,            KC_DEL,             
         // right hand
@@ -32,7 +32,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         MO(4),              KC_HOME,            KC_END,             KC_ALGR,            TO(2),              
         LALT(LSFT(KC_X)),   LSFT(KC_F6),        
         _______,            
-        KC_MEH,             KC_ENT,             KC_BSPC
+        KC_MEH,             LT(4,KC_ENT),       KC_BSPC
     ),
 
 
@@ -111,7 +111,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     _______,            _______,            _______,            _______,            _______,            
                                                                                                         _______,            _______,            
                                                                                                                             _______,            
-                                                                                    LSFT(KC_LALT),      LSFT(KC_LCTL),      _______,            
+                                                                                    LSFT(KC_LALT),      _______,            _______,            
         // right hand
         _______,            KC_F7,              KC_F8,              KC_F9,              KC_F10,             KC_F11,             KC_F12,             
         _______,            XXXXXXX,            KC_PGUP,            KC_UP,              KC_PGDN,            XXXXXXX,            _______,            
@@ -147,6 +147,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 
 };
+
 
 bool suspended = false;
 const uint16_t PROGMEM fn_actions[] = {

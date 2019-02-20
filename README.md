@@ -2,7 +2,7 @@
 
 My Ergodox EZ layout. It's the nth iteration of the layout that I've been using for the duration of my usage of the ergodox. I've also meddled with having the modifiers on the home row as long press keys, but it turns out that it was impossible to find a timeout that would actually work for all key combinations, and especially all days (weirdly enough).
 
-At this point, based off of the graphical configuration at https://configure.ergodox-ez.com/layouts/AQyK/latest/0 to back it up here. Also to be able to add more features (like the keylogger) that just isn't possible to do with the graphical configurator.
+At this point, based off of the graphical configuration at https://configure.ergodox-ez.com/layouts/yVmr/latest/0 to back it up here. Also to be able to add more features (like the keylogger) that just isn't possible to do with the graphical configurator.
 
 ## Building
 
