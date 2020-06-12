@@ -1,4 +1,4 @@
-# Ergodox EZ layout
+arst# Ergodox EZ layout
 
 My Ergodox EZ layout. It's the nth iteration of the layout that I've been using for the duration of my usage of the ergodox. I've also meddled with having the modifiers on the home row as long press keys, but it turns out that it was impossible to find a timeout that would actually work for all key combinations, and especially all days (weirdly enough).
 
